@@ -10,6 +10,16 @@
 - **GitHub:** https://github.com/vpakspace/devops-netology
 - **GitLab:** https://gitlab.com/vpakspace/devops-netology
 
+## Граф коммитов из терминала
+
+Снимок вывода `git log --graph --oneline --all --decorate` (на случай сбоев GitHub Network):
+
+![Граф коммитов](commit-graph.png)
+
+Видно структуру ветвления: merge-коммит `47f4462 Merge branch 'git-merge'` с развилкой
+(слияние ветки `git-merge`) и поверх него — коммит `bbf9a85 git-rebase 1`, влитый в `main`
+перемоткой (fast-forward) после rebase.
+
 ## Что было сделано
 
 ### Подготовка (ветка `main`)
