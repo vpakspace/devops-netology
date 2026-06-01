@@ -22,3 +22,10 @@ Git **не будет** отслеживать и сохранять в репо
 - `.terraformrc`, `terraform.rc` — пользовательские конфигурационные файлы CLI.
 
 Корневой файл `.gitignore` зарезервирован для общих правил репозитория.
+
+## Удалённые репозитории
+
+Проект синхронизируется с двумя удалёнными репозиториями:
+
+- **GitHub** (`origin`): https://github.com/vpakspace/devops-netology
+- **GitLab** (`gitlab`): https://gitlab.com/vpakspace/devops-netology
