@@ -1,0 +1,13 @@
+# Служебные файлы Vagrant
+.vagrant/
+*.log
+
+# Packer
+packer_cache/
+*.box
+
+# Секреты — никогда не коммитим!
+*.auto.pkrvars.hcl
+secret*.pkrvars.hcl
+*.tfvars
+.env
