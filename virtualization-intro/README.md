@@ -79,7 +79,9 @@ network_interfaces:
       one_to_one_nat: { address: 111.88.240.26, ip_version: IPV4 }
 ```
 
-> 📷 `img/01_vm_running.png` — карточка ВМ в web-консоли (статус RUNNING, публичный IP, флаг «Прерываемая»).
+Состояние созданной ВМ (`yc compute instance get`):
+
+![Состояние ВМ virt-intro-vm](img/01_vm_running.png)
 
 ### Шаг 4. Подключение по SSH и проверка Docker
 
@@ -104,7 +106,7 @@ Hello from Docker!
 This message shows that your installation appears to be working correctly.
 ```
 
-> 📷 `img/02_ssh_docker.png` — терминал: успешный SSH-вход + вывод `docker --version` от root.
+![SSH-вход и проверка Docker от root](img/02_ssh_docker.png)
 
 ### Шаг 5. Какие ещё инструменты предустановлены в образе Toolbox
 
